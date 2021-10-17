@@ -6,8 +6,8 @@ describe("Test jasmine", () => {
 
         let appiumCapabilities = {
                 'platformName': 'Android',
-                'platformVersion': '11',
-                'deviceName': 'Pixel4',
+                'platformVersion': '10',
+                'deviceName': 'Redmi Note 7 Pro',
                 'automationName': 'UiAutomator2',
                 'app': path.join(process.cwd(), './apps/Android-NativeDemoApp-0.4.0.apk')
         }

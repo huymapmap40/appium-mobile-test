@@ -22,12 +22,13 @@ config.capabilities = [
         // For W3C the appium capabilities need to have an extension prefix
         // http://appium.io/docs/en/writing-running-appium/caps/
         // This is `appium:` for all Appium Capabilities which can be found here
-        'appium:deviceName': 'Pixel4',
-        'appium:platformVersion': '11',
+        'appium:deviceName': 'violet',
+        'appium:platformVersion': '10',
         'appium:orientation': 'PORTRAIT',
         'appium:automationName': 'UiAutomator2',
         // The path to the app
         'appium:app': join(process.cwd(), './apps/Android-NativeDemoApp-0.4.0.apk'),
+        'appium:appActivity': 'com.wdiodemoapp.MainActivity',
         // 'appium:appWaitActivity': 'com.wdiodemoapp.SplashActivity'
         // Read the reset strategies very well, they differ per platform, see
         // http://appium.io/docs/en/writing-running-appium/other/reset-strategies/
